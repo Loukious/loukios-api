@@ -1,0 +1,50 @@
+name: Generate Icons
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 9 * * *'
+jobs:
+  generate-icons:
+    runs-on: ubuntu-22.04
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m ensurepip --upgrade
+        python -m pip install --upgrade setuptools
+        pip install setuptools
+        pip install -r requirements.txt
+
+    - name: Run GenerateIcons Script
+      run: |
+        python -c "
+        import sys
+        from PicsDLCataba import GenerateIcons
+        from CosmeticsMaker import GenerateCosmetics
+        GenerateIcons()
+        GenerateCosmetics()
+        "
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add .
+        if [ -n "$(git status --porcelain)" ]; then
+          git commit -m 'Auto-generated icons by GitHub Actions'
+          git push
+        else
+          echo "No changes to commit"
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

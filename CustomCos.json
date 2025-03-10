@@ -1,0 +1,11 @@
+{
+    "MythicIds": ["ogcid_116_athena_commando_m_carbideblack", "ogcid_964_athena_commando_m_historian_869bc", "ogcid_971_athena_commando_m_jupiter_s0z6m", "ogcid_a_062_athena_commando_f_alchemy_xd6gp", "ogcid_701_athena_commando_m_bananaagent", "pickaxe_id_717_networkfemale", "cid_a_311_athena_commando_f_scholarfestivewinter", "cid_a_297_athena_commando_f_network", "cid_783_athena_commando_m_aquajacket", "pickaxe_id_044_tacticalurbanhammer", "bid_049_tacticalwoodland", "eid_hiphop01", "bid_346_blackwidowrogue", "cid_516_athena_commando_m_blackwidowrogue", "cid_926_athena_commando_f_streetfashiondiamond", "cid_660_athena_commando_f_bandageninjablue", "cid_711_athena_commando_m_longshorts", "cid_113_athena_commando_m_blueace", "cid_757_athena_commando_f_wildcat", "cid_114_athena_commando_f_tacticalwoodland", "ogcid_029_athena_commando_f_halloween", "ogcid_030_athena_commando_m_halloween"],
+    "ExoticIds": ["ogcid_315_athena_commando_m_teriyakifish", "cid_a_196_athena_commando_f_fncsgreen", "cid_851_athena_commando_m_bittenhead", "cid_920_athena_commando_m_partytrooper", "cid_547_athena_commando_f_meteorwoman", "cid_a_106_athena_commando_f_futurepinkgoal"],
+    "TranscendentIds": [],
+    "BlackListedIds": [],
+	"MythicTags": ["Cosmetics.Source.Season1.SeasonShop", "Cosmetics.Source.Promo", "Cosmetics.Source.Platform", "Cosmetics.Source.Granted.Founders", "Cosmetics.Set.SquadImpact", "Cosmetics.Source.Granted.Twitch", "Cosmetics.Source.Season1.LevelUp", "Cosmetics.Source.Platform.PS4", "Cosmetics.Source.Platform.XboxHW", "Cosmetics.Set.BurstAccident", "Cosmetics.Source.Platform.SonyPlusPack", "Cosmetics.Source.Platform.Samsung", "Cosmetics.Source.Platform.Huawei", "Cosmetics.Source.Season2.BattlePass.Paid"],
+    "ExoticTags": ["Cosmetics.Set.HoloCars", "Cosmetics.Set.WorldCup2019", "Cosmetics.Set.FNCS"],
+    "TranscendentTags": [],
+    "BlackListedTags": ["Cosmetics.Set.RaptorArcticCamo"],
+    "OGs": ["cid_029_athena_commando_f_halloween", "cid_030_athena_commando_m_halloween", "cid_116_athena_commando_m_carbideblack", "cid_964_athena_commando_m_historian_869bc", "cid_971_athena_commando_m_jupiter_s0z6m", "cid_315_athena_commando_m_teriyakifish", "cid_701_athena_commando_m_bananaagent", "cid_a_062_athena_commando_f_alchemy_xd6gp"]
+}
